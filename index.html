@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>IMAGE SLIDER WEBSITE</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    </head>
+    <body>
+      <nav class="navbar">
+        <div class="logo">
+          <img src="/images 2/logo.png" alt="website logo" />
+          <h1>My Gallery</h1>
+        </div>
+      
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="result.html">Upload Result</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      
+        <div class="login">
+          <input type="text" placeholder="Username" />
+          <input type="password" placeholder="Password" />
+          <button>Login</button>
+        </div>
+      </nav>
+        
+      
+
+        </header>
+        
+        
+        <section class="upload-section">
+          <h2>Upload a New Image</h2>
+          <form id="uploadForm">
+              <input type="file" accept="image/*" id="imageInput">
+              <button type="button" onclick="uploadImage()">Upload</button>
+          </form>
+      </section>
+        
+        </section>
+        <div class="container">
+            
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper"> 
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <img src="/images 2/51.jpeg">
+                    <p class="caption"></p>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/images 2/52.jpeg">
+                    <p class="caption"></p>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/images 2/55.jpeg">
+                    <p class="caption"></p>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/images 2/54.jpeg">
+                    <p class="caption"></p>
+                  </div>    
+                  
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+              
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              
+                 
+              </div>
+
+        </div>
+        <footer class="footer">
+            <p>&copy;2025 My Gallery. All rights reserved.</p>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+        
+    </body>
+</html>
